@@ -1,0 +1,24 @@
+{
+  "name": "dazz/newrelic-service-provider",
+  "description":"A service layer to add metrics to newrelic",
+  "keywords":[],
+  "type":"library",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Hakin Dazs",
+      "email": "hakindazs@gmail.com",
+      "homepage": "http://dazz.github.io"
+    }
+  ],
+  "homepage": "http://github.com/dazz/newrelic-service-provider",
+  "require":{
+    "php":">=5.3.0"
+  },
+  "require-dev": {
+    "silex/silex": "1.1.*@dev"
+  },
+  "autoload": {
+    "psr-0": { "Dazz\\Silex\\Provider\\Newrelic": "src" }
+  }
+}
